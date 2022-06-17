@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container" style="max-width: 1080px">
+		<div class="back back-1">
+			<a href="index.html">Back</a>
+		</div>
+		<!-- slider -->
+		<div class="slider">
+			<div class="btn">
+				<a href="##" class="swiper-button-prev">
+					<img src="images/lf_13.png"/>
+				</a>
+				<a href="##" class="swiper-button-next">
+					<img src="images/rt_15.png"/>
+				</a>
+			</div>
+			
+			<div class="swiper-container">
+		      <div class="swiper-wrapper">
+		          <div class="swiper-slide">
+		              
+		              <div class="flex">
+				<div class="lf">
+					<img src="images/img_02.png" alt=""/>
+				</div>
+				<div class="rt flex">
+					<div class="item mr-10">
+						<div class="img" id="0">
+							<div class="tip">
+								<span>황털붓</span>  
+							</div>
+							<img src="images/img_04.png" alt=""/>
+						</div>
+						<div class="img" id="1">
+							<div class="tip">
+								<span>양털붓</span>
+							</div>
+							<img src="images/img_11.png" alt=""/>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img" id="2">
+							<div class="tip">
+								<span>겸호붓</span>
+							</div>
+							<img src="images/img_06.png" alt=""/>
+						</div>
+						<div class="img" id="3">
+							<div class="tip">
+								<span>자털붓</span>
+							</div>
+							<img src="images/img_09.png" alt=""/>
+						</div>
+					</div>
+				</div>
+			</div>
+		              
+		          </div>
+		          <div class="swiper-slide">
+		              
+		              <div class="flex">
+				<div class="lf img" id="5">
+					<div class="item">
+						<div class="img">
+							<div class="tip">
+								<span>말털붓</span>  
+							</div>
+							<img src="images/img2_02.png" alt="" />
+						</div>
+						<div class="img">
+							<div class="tip">
+								<span>쥐털붓</span>
+							</div>
+							<img src="images/img2_10.png" alt=""/>
+						</div>
+					</div>
+				</div>
+				<div class="rt flex">
+					<div class="item mr-10">
+						<div class="img" id="5">
+							<div class="tip">
+								<span>닭털붓</span>  
+							</div>
+							<img src="images/img2_04.png" alt=""/>
+						</div>
+						<div class="img" id="4">
+							<div class="tip">
+								<span>되지털붓</span>
+							</div>
+							<img src="images/img2_14.png" alt=""/>
+						</div>
+					</div>
+					<div class="item" id="4">
+						<div class="img">
+							<div class="tip">
+								<span>너구리털붓</span>
+							</div>
+							<img src="images/img2_06.png" alt=""/>
+						</div>
+						<div class="img" id="4">
+							<div class="tip">
+								<span>사슴털붓</span>
+							</div>
+							<img src="images/img2_11.png" alt=""/>
+						</div>
+					</div>
+				</div>
+			</div>
+		              
+		          </div>
+		          
+		      </div>
+		     
+		      
+		  </div>
+
+			
+		</div>
+
+		<!-- list -->
+		<div class="list">
+			<ul id="list">
+				<li>
+					<div class="img">
+						<img src="images/img_16.png" alt=""/>
+					</div>
+					<div class="txt">
+						<h2>1111111111111111111111</h2>
+						<p>
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="img">
+						<img src="images/img_19.png" alt=""/>
+					</div>
+					<div class="txt">
+						<h2>1111111111111111111111</h2>
+						<p>
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="img">
+						<img src="images/img_21.jpg" alt=""/>
+					</div>
+					<div class="txt">
+						<h2>1111111111111111111111</h2>
+						<p>
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+ 	<script>
+          var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: false,
+            navigation: {
+	          nextEl: ".swiper-button-next",
+	          prevEl: ".swiper-button-prev",
+	        },
+            
+          });
+      </script>
+      <script type="text/javascript">
+      	$(function() {
+      		$('.slider .img').click(function() {
+      			var arr = [
+      				[
+      					{'img': 'img1_03.jpg', 'tit': '황모필(狼毫笔)', 'des': '옛날에는 늑대털로 붓을 만들기도 했는데 지금은 <br/>족제비털로 만든다.족제비 끝의 털만 붓으로 쓸 <br/>수 있고 털은 끈기가 있다.경붓에 속한다'},
+      					{'img': 'img1_06.jpg', 'tit': '', 'des': '동북산 쥐꼬리가 가장 좋다.<br/> 글씨와 그림에 적합하며 양모붓보다 끈기는 있지<br/> 만 양모붓이 더 오래 간다.'},
+      					{'img': 'img1_08.jpg', 'tit': '', 'des': '털 표면은 연한 노란색이나 노란색은 약간 붉은<br/> 색을 띠며 윤기가 있어 자세히 보면 모든 털이 다<br/> 꼿꼿하게 서 있다.<br/> 허리가 굵고 뿌리가 가늘다.'}
+      				],
+      				[
+      					{'img': 'bg3_03.jpg', 'tit': '양모필(羊毫笔)', 'des': '흰 염소모를 원료로 하여, 염소털의 품종 규격 분 <br>류는 매우 치밀하며, 산지,계절,연령대 및 양의 <br>부위별 털의 등급, 굵기,부드러기,날씬한 길이를 <br>잘 선택하여 필두를 만들어야 한다.'},
+      					{'img': 'bg3_06.jpg', 'tit': '', 'des': '남송 이후에 성행한 것으로 보이며 보편적으로 채 <br>용된 것은 청초 이후의 일이다.청조때에는 원만하 <br>고 윤택하며 함축성을 중시하고 재능을 드러내지 <br>않았기에 양털만 당시의 요구에 부합되여 사용되 였다.'},
+      					{'img': 'bg3_08.jpg', 'tit': '', 'des': '양호필은 부드럽고 잉크 흡입량이 많아 둥글고 <br/>두툼한 점화를 쓰기에 적합하다.연붓에 속한다，'}
+      				],
+      				[
+      					{'img': 'img_16.png', 'tit': '겸호필(兼毫笔)', 'des': '몇 가지 세모를 섞어 만든 붓을 흔히 겸호필이라 <br>한다.겸필을 제작할 때 각종 모질의 성능  특징의 <br>배합비가 적절해야 하며 배합된 부위가 합리적이어야 하며 몇 가지 털의 길이가 짧고 함량이 정확<br>하게 계산되어야만 소기의 사용 효과를 거둘 수 <br>있다. 그렇지 않으면 겸필의 정의를 잃게 된다.'},
+      					{'img': 'img_19.png', 'tit': '', 'des': '겸호필의 특징은 네 가지이다:겸호탄성이 적당하<br/>고 강유상제하여 초보자가 쉽게 파악할 수 있다.<br/>둘째는 축적된 먹의 양과 축적성이 적절하고 일<br/>관성 있는 글쓰기에 도움이 된다.<br/>셋째는 행필속도의 빠르기와 리듬변화가 더 쉽고 <br/>쉽게 표현될 수 있다.<br/>넷째는 전체적인 가성비가 비교적 높아 초보자와 <br/>전문서가가 선택하여 사용하기에 적합한다.'},
+      					{'img': 'img_21.jpg', 'tit': '', 'des': '해서,예서,행서 및 화조 그림을 쓰기에 적합한다.<br/>특성이 블렌딩 비율에 따라 다르거나 강인하거나 <br/>부드러우며 저렴하다는 장점이 있다.'}
+      				],
+      				[
+      					{'img': 'img4_03.jpg', 'tit': '자호필(紫毫笔)', 'des': '산토끼의 등에 묻은 털을 따서 만들었는데, 검은<br>자색을 띤다고 해서 붙여진 이름이다.중국은 남<br>북 간 토끼의 끈기가 서로 다르며 남북의 합을 취 <br>하는 것도 있다.경붓에 속한다'},
+      					{'img': 'img4_06.jpg', 'tit': '', 'des': '똑바른 글씨를 쓰기에 적합한다.산토끼 등 작은<br>부위의 검은 바늘끝털을 주요원료로 하는데 자호<br>표면은 광택이 있고 끝이 뾰족하고 강직하며 털<br>대는 굵고 곧으며 습윤하여 납작하게 만들었는데<br>자세히 관찰하면 끝이 가늘고 길며 흑갈색의 투명<br>한 모양을 띤다.'},
+      					{'img': 'img4_08.jpg', 'tit': '', 'des': '자호필은 뾰족하고 날카로우며, 탄력이 황모필보<br>다 더 강하며, 안후이에서 나는 산토끼털이 가장<br>좋다.'}
+      				],
+      				[
+      					{'img': 'img5_02.jpg', 'tit': '되지털붓(猪鬃笔)', 'des': '서술이 원활하다. 적합: 행, 해서, 초서, 소해 및 국화 사군자, 산수화.'},
+      					{'img': 'img5_05.jpg', 'tit': '너구리털붓(狸尾笔)', 'des': '집쥐의 귀밑머리로 만들어져 매끄럽고 날카로운 글씨를 썼으며, 글씨는 부드럽고 강직하게 쓴다.'},
+      					{'img': 'img5_08.jpg', 'tit': '사슴털붓(鹿毫笔)', 'des': '닭의 가슴털로 만들어져 부드러웠고  서예를 처 음 배우는 사람은 익히기 어려워 사용하기가 좋 지 않았다.옛사람들이 쓰던 계모필은 수탉 목의 긴 털을 빼서 가늘고 짧은 털을 뽑아 작은 해서 등머리의 망토로 사용한다.'}
+      				],
+      				[
+      					{'img': 'img2_19.png', 'tit': '말털필(马毫笔)', 'des': '서술이 원활하다. 적합: 행, 해서, 초서, 소해 및 <br>국화 사군자, 산수화.'},
+      					{'img': 'img2_23.png', 'tit': '쥐털필(鼠须笔)', 'des': '집쥐의 귀밑머리로 만들어져 매끄럽고 날카로운 <br>글씨를 썼으며, 글씨는 부드럽고 강직하게 쓴다.'},
+      					{'img': 'img2_25.jpg', 'tit': '닭털필(鸡毫笔)', 'des': '닭의 가슴털로 만들어져 부드러웠고  서예를 처<br>음 배우는 사람은 익히기 어려워 사용하기가 좋<br>지 않았다.옛사람들이 쓰던 계모필은 수탉 목의 <br>긴 털을 빼서 가늘고 짧은 털을 뽑아 작은 해서 <br>등머리의 망토로 사용한다.'}
+      				],
+
+      			];
+      			var id = this.id;
+      			var data = arr[id];
+      			console.log(data);
+      			var html = '';
+      			for(var i = 0; i < data.length; i++) {
+      				html += '<li>'
+					html += '<div class="img">'
+					html += '<img src="images/'+data[i].img+'" alt="" style="width:485px"/>'
+					html += '</div>'
+					html += '<div class="txt">'
+					html += '<h2>'+data[i].tit+'</h2>'
+					html += '<p>'+data[i].des+'</p>'
+					html += '</div>'
+					html += '</li>'
+      			}
+      			$('#list').html(html)
+
+      		})
+      		$('#0').click();
+      	})
+      </script>
+</body>
+</html>

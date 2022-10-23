@@ -251,9 +251,10 @@ a{
 .yl-1 .item-1 .text{
 	width: 320px;
     position: absolute;
-    top: 158px;
+    top: 149px;
     line-height: 1.8;
     font-size: 14px;
+    padding-left: 40px;
 }
 .yl-1 .img{
 	width: 80%;
@@ -352,6 +353,11 @@ a{
 	font-size: 32px;
 	font-weight: normal;
 	margin-bottom: 100px;
+	display: flex;
+    align-items: center;
+}
+.list li h2 span{
+	font-size: 24px;
 }
 .list li p{
 	font-size: 16px;
